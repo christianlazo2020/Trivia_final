@@ -1,0 +1,31 @@
+
+.contenedor {
+    max-width:300px;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card-body {
+    background-color: tan;
+    border: transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+}
+
+.btn {
+    border: transparent;
+    border-radius: 8px;
+    padding:5px;
+    color: white;
+    background-color: blue;
+}
